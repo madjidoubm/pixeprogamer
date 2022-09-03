@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+margin: 0;}
+body{
+    background-color: rgba(0, 89, 255, 0.171);
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right, rgb(67, 0, 175),rgba(56, 13, 209, 0.384));
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+#span1{
+    width: 40%;
+    height: 70%;
+    float: right;
+}
+#hh{
+    float: left;
+    height: 100px;
+    padding: 20px 15px;
+    text-shadow: 2px 3px rgba(236, 87, 0, 0.356);
+    -webkit-text-stroke: thin rgb(0, 119, 255);
+    color: transparent;
+cursor: pointer;
+color: aliceblue;
+}
+#img1{
+    height: 100%;
+    border-radius: 30%;
+cursor: pointer;}
+nav{
+    width:80%;
+    text-align: right;
+}
+nav a{
+   text-decoration: none;
+   color: aliceblue;
+   font-weight: bolder;
+display: inline-block;
+
+}
+nav li{
+    display: inline-block;
+    line-height: 100px;
+background-color: rgba(24, 24, 129, 0.527);
+text-align: center;}
+nav a:hover{
+    background-color: white;
+    color:blue;
+    height: 100%;
+    width: 100%;
+    cursor:grab;
+}
+main{
+    width: 55%;
+    height: 500px;
+background-color: rgba(0, 89, 255, 0.171);
+border-top: 2px solid rgb(126, 128, 255);
+padding-left: 5%;
+display: inline-block;
+}
+v1{
+    width: 80%;
+    height: 490px;
+}
+aside{
+    float: right;
+width: 38%;
+height: 500px;
+background-color: rgb(0, 162, 255);
+}
+aside img{
+padding: 1px 3px;
+}
+aside #i1{width: 95%;
+height: 30%;
+margin-top: 5px;
+border-style: dashed solid;
+border-color: blue;
+border-width: 3px;
+
+}
+aside #i2{width: 95%;
+height: 30%;
+margin-top: 5px;
+border-style: dashed solid;
+border-color: blue;
+border-width: 3px;}
+aside #i3{width: 95%;
+height: 30%;
+margin-top: 5px;
+margin-bottom: 5px;
+border-style: dashed solid;
+border-color: blue;
+border-width: 3px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(87, 118, 255);
+    
+}
+footer #contact{
+    width: 100%;
+    display: inline-block;
+    float: right;
+
+}
+h3{
+    float: right;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+    -webkit-text-stroke: thin red;
+}
+#i4{
+    width: 45px;
+    height: 50px;
+    padding: 3px;
+float: right;
+border-bottom: 2px double red;
+
+}
+#i4:hover{
+width: 55px;
+border-bottom: 2px solid red;}
+@media only screen and (max-width:900px) and (min-width:600px){
+  
+    #span1{
+        right: 200px;
+width: auto;
+margin-right: 6%;
+justify-items: left;
+}
+nav li{
+    width: auto;
+    margin: 0%;
+    padding: 0%;
+
+}
+}
+@media only screen and (max-width:600px) and (min-width:300px){
+    #span1{
+ padding: 0%;
+        margin-right: 10%;
+    width: auto;
+font-size: 10px;
+}
+nav li{
+    width: 50px;
+    margin: 0%;
+    padding: 0%;
+    font-size: 10px;
+    float: right;
+}
+}
+@media only screen and (max-width:460px) and (min-width:430px){
+    #span1{
+        right: 200px;
+width: auto;
+padding: 0%;
+margin-right: 6%;
+justify-items: left;
+}
+    nav li{
+        width: 50px;
+        height: 25%;
+        margin: 0%;
+        padding: 0%;
+        font-size: 10px;
+        float: right;
+
+    }
+}
+@media only screen and (max-width:430px) and (min-width:310px){
+   header{
+    height: 300px;
+   }
+    #hh{
+        height: auto;
+        display: block;
+    }
+    #img1{
+        height: 100px;
+        display: block;
+    }
+    #span1{
+        right: 200px;
+width: auto;
+padding: 0%;
+margin-right: 6%;
+justify-items: left;
+}
+nav{
+    display: block;
+}
+ul{
+    display: block;
+}
+    nav li{
+        width: 50px;
+        height: 25%;
+        margin: 0%;
+        padding: 0%;
+        font-size: 10px;
+        float: right;
+}}
+@media only screen and (max-width:310px) and (min-width:249px){
+    header{
+    width: 300px;}
+        #hh{
+            display: none;
+        }
+        #span1{
+            display: none;
+        }
+}
+@media only print {
+    nav{
+        display: none;}
+        main{
+            display: none;
+        }
+        aside{
+
+            width: 100%;
+        }
+#i1{
+    width: 90%;
+}
+#i2{
+    width: 90%;
+      
+}
+#i3{
+    width: 90%;
+}
+}
